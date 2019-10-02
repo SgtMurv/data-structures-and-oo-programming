@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8013DFA023439ABD007CA094 /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8013DF9E23439ABD007CA094 /* sphere.cpp */; };
+		804E2887233E810300936045 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 804E2886233E810300936045 /* main.cpp */; };
+		804E288F233E811300936045 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804E288E233E811300936045 /* GLUT.framework */; };
+		804E2891233E811B00936045 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 804E2890233E811B00936045 /* OpenGL.framework */; };
+		804E2893233E822C00936045 /* app.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 804E2892233E822C00936045 /* app.cpp */; };
+		804E2899233E82AD00936045 /* sphere_OO_basic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 804E2897233E82AD00936045 /* sphere_OO_basic.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		804E2881233E810300936045 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8013DF9E23439ABD007CA094 /* sphere.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sphere.cpp; path = "sphere-tutorial-2/Source Files/sphere.cpp"; sourceTree = SOURCE_ROOT; };
+		804E2883233E810300936045 /* sphere-tutorial-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "sphere-tutorial-2"; sourceTree = BUILT_PRODUCTS_DIR; };
+		804E2886233E810300936045 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		804E288E233E811300936045 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		804E2890233E811B00936045 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		804E2892233E822C00936045 /* app.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = app.cpp; sourceTree = "<group>"; };
+		804E2894233E824000936045 /* app.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = app.h; sourceTree = "<group>"; };
+		804E2897233E82AD00936045 /* sphere_OO_basic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sphere_OO_basic.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		804E2880233E810300936045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E2891233E811B00936045 /* OpenGL.framework in Frameworks */,
+				804E288F233E811300936045 /* GLUT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		804E287A233E810300936045 = {
+			isa = PBXGroup;
+			children = (
+				804E2885233E810300936045 /* sphere-tutorial-2 */,
+				804E2884233E810300936045 /* Products */,
+				804E288D233E811300936045 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		804E2884233E810300936045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				804E2883233E810300936045 /* sphere-tutorial-2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		804E2885233E810300936045 /* sphere-tutorial-2 */ = {
+			isa = PBXGroup;
+			children = (
+				804E2895233E824A00936045 /* Header Files */,
+				804E2896233E826300936045 /* Source Files */,
+			);
+			path = "sphere-tutorial-2";
+			sourceTree = "<group>";
+		};
+		804E288D233E811300936045 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				804E2890233E811B00936045 /* OpenGL.framework */,
+				804E288E233E811300936045 /* GLUT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		804E2895233E824A00936045 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				804E2894233E824000936045 /* app.h */,
+			);
+			path = "Header Files";
+			sourceTree = "<group>";
+		};
+		804E2896233E826300936045 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				8013DF9E23439ABD007CA094 /* sphere.cpp */,
+				804E2892233E822C00936045 /* app.cpp */,
+				804E2886233E810300936045 /* main.cpp */,
+				804E2897233E82AD00936045 /* sphere_OO_basic.cpp */,
+			);
+			path = "Source Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		804E2882233E810300936045 /* sphere-tutorial-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 804E288A233E810300936045 /* Build configuration list for PBXNativeTarget "sphere-tutorial-2" */;
+			buildPhases = (
+				804E287F233E810300936045 /* Sources */,
+				804E2880233E810300936045 /* Frameworks */,
+				804E2881233E810300936045 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sphere-tutorial-2";
+			productName = "sphere-tutorial-2";
+			productReference = 804E2883233E810300936045 /* sphere-tutorial-2 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		804E287B233E810300936045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Matthew Honour";
+				TargetAttributes = {
+					804E2882233E810300936045 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 804E287E233E810300936045 /* Build configuration list for PBXProject "sphere-tutorial-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 804E287A233E810300936045;
+			productRefGroup = 804E2884233E810300936045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				804E2882233E810300936045 /* sphere-tutorial-2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		804E287F233E810300936045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				804E2887233E810300936045 /* main.cpp in Sources */,
+				804E2899233E82AD00936045 /* sphere_OO_basic.cpp in Sources */,
+				8013DFA023439ABD007CA094 /* sphere.cpp in Sources */,
+				804E2893233E822C00936045 /* app.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		804E2888233E810300936045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		804E2889233E810300936045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		804E288B233E810300936045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		804E288C233E810300936045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		804E287E233E810300936045 /* Build configuration list for PBXProject "sphere-tutorial-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E2888233E810300936045 /* Debug */,
+				804E2889233E810300936045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		804E288A233E810300936045 /* Build configuration list for PBXNativeTarget "sphere-tutorial-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E288B233E810300936045 /* Debug */,
+				804E288C233E810300936045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 804E287B233E810300936045 /* Project object */;
+}
